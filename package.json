@@ -1,0 +1,27 @@
+{
+  "name": "draft_ticket_presentation",
+  "description": "Apresentação do projeto Ticket Público",
+  "author": {
+    "name": "Cleyton Honorato",
+    "email": "honoraro55@gmail.com",
+    "url": "https://github.com/Cleyton-Honorato"
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "slidev": {
+    "highlighter": "prism"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.13",
+    "@slidev/theme-default": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.37",
+    "@iconify-json/mdi": "^1.1.55"
+  }
+}
